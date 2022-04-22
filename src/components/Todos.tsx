@@ -1,4 +1,6 @@
-const Todos = () => {
+import React from "react";
+
+const Todos: React.FC = (props) => {
   return (
     <ul>
       <li>Learn React</li>
